@@ -1,0 +1,19 @@
+{
+    "name": "kemsa-api",
+    "version": "0.0.1",
+    "description": "API de los productos y funcionalidades de KEMSA",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "author": "Nicolas Montiel",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
